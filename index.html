@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 4px;
+  font-size: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.trend {
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 49%;
+}
+
+
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 49%;
+}
+
+
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+</style>
+<meta http-equiv="refresh" content="300">
+</head>
+<body>
+
+<div style="background-color: white;" class="header">
+  <h2>Market News</h2>
+</div><br>
+
+
+<div class="trend">
+
+    <a href="javascript:clickhandle('bank');">bank</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('new');">new</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('covid');">covid</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('top');">top</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('vaccine');">vaccine</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('icici');">icici</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('stimulus');">stimulus</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('asian');">asian</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('china');">china</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('hits');">hits</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('trade');">trade</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('canara');">canara</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('rbi');">rbi</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('ipo');">ipo</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('hit');">hit</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('asia');">asia</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('growth');">growth</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('points');">points</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('highs');">highs</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('global');">global</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('jumps');">jumps</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('ahead');">ahead</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('hopes');">hopes</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('news');">news</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('dollar');">dollar</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('returns');">returns</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('buys');">buys</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('next');">next</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('banks');">banks</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('financial');">financial</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('wall');">wall</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('capital');">capital</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('gain');">gain</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('daily');">daily</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('rise');">rise</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('biden');">biden</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('raise');">raise</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('falls');">falls</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('today');">today</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('pharma');">pharma</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('tata');">tata</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('optimism');">optimism</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('know');">know</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('trump');">trump</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('focus');">focus</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('near');">near</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('singapore');">singapore</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('continue');">continue</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('fresh');">fresh</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('surges');">surges</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('brexit');">brexit</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('things');">things</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('sebi');">sebi</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('bell');">bell</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('policy');">policy</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('franklin');">franklin</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('indian');">indian</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('setup');">setup</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('economic');">economic</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('plan');">plan</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('hong');">hong</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('kong');">kong</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('direct');">direct</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('google');">google</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('hdfc');">hdfc</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('talks');">talks</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('push');">push</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('months');">months</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('tops');">tops</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('see');">see</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('need');">need</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('hold');">hold</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('surge');">surge</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('rubber');">rubber</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('opening');">opening</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('pandemic');">pandemic</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('guide');">guide</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('strong');">strong</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('burger');">burger</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('king');">king</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('continues');">continues</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('chinese');">chinese</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('report');">report</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('public');">public</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('nse');">nse</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('consumer');">consumer</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('money');">money</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('nasdaq');">nasdaq</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('digital');">digital</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('futures');">futures</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('best');">best</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('ongc');">ongc</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('pfizer');">pfizer</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('better');">better</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('equities');">equities</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('biggest');">biggest</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('farmers');">farmers</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('dec');">dec</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('debt');">debt</a>&nbsp&nbsp&nbsp&nbsp  
+
+    <a href="javascript:clickhandle('axis');">axis</a>&nbsp&nbsp&nbsp&nbsp  
+
+</div>
+
+<div id="content">
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/world-news/deal-or-no-deal-britain-to-pay-high-price-for-brexit_14564621.html" target="_blank">Deal or no deal, Britain to pay high price for Brexit</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   12:23:04</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Many analysts predict Brexit will unleash even more painful economic damage, delivering another hammer blow just as the COVID-19 fallout begins to ease with the advent of vaccines.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/health/vaccines-200-yearsprogress-scepticism_14564581.html" target="_blank">Vaccines: 200 years of progress -- and scepticism</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   12:21:47</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> We look at the history of vaccines over the last two centuries, with scepticism about them never far away.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/world-news/post-brexit-borders-to-divide-eu-uk-citizens_14564561.html" target="_blank">Post-Brexit borders to divide EU, UK citizens</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   12:16:52</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Britons will be treated by the EU as &#34;third country&#34; nationals, no longer enjoying freedom of movement to work, study or retire across the European Union. Britain in turn will process EU nationals at its borders as it does other non-UK passport holders.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/buzzing-stocks/indoco-remedies-share-price-falls-nearly-7-despite-tender-wingermany_14564541.html" target="_blank">Indoco Remedies share price falls nearly 7% despite tender win in Germany</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   12:09:30</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> The share is trading 4.45 percent below its 52-week high and 104.58 percent above its 52-week low.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://timesofindia.indiatimes.com/business/india-business/centre-to-spend-money-not-worry-about-widening-fiscal-gap-nirmala-sitharaman/articleshow/79620664.cms" target="_blank">Centre to spend money, not worry about widening fiscal gap: FM</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   12:06:10</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>The government will not worry about missing its budget deficit target as it seeks to step up spending to support the economy, finance minister Nirmala Sitharaman said.</b></p><br>
+      <p><b>TimesofIndia</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/business/rbl-bank-opens-another-branchdelhi_14564521.html" target="_blank">RBL Bank opens another branch in Delhi</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   12:05:50</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> The bank services over 75 embassies and 67 divisions (defence, cultural, trade, tourism etc) of over 128 countries. It caters to 1,392 diplomats through its offices in Delhi, Mumbai, Chennai, Kolkata, Hyderabad and Bengaluru, RBL Bank said in a release.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/health/uk-rolling-out-covid-19-vaccine-to-public-as-world-watches_14564501.html" target="_blank">UK rolling out COVID-19 vaccine to public as world watches</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   12:01:42</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Public health officials are asking the public to be patient because only those who are most at risk from COVID-19 will be vaccinated in the early stages.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.thehindubusinessline.com/markets/stock-markets/market-update-indices-open-in-green/article33276163.ece" target="_blank">Market update: Sensex trades flat, Nifty near 13,300</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:56:14</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>
+                Rupee call: Daily Rupee call: Go long on INR above 73.7 Update:Equity benchmark Sensex jumped over 150 points to touch its fresh lifetime peak in earl
+            </b></p><br>
+      <p><b>Hindubusiness</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.business-standard.com/article/markets/avenue-supermarts-hits-all-time-high-rallies-16-in-six-days-120120800442_1.html" target="_blank">Avenue Supermarts gains 5% to hit all-time high; stock surges 16% in 6 days</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:54:00</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>The stock surpassed its previous high of Rs 2,559, touched on February 13, 2020.</b></p><br>
+      <p><b>BusinessStandard</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.thehindubusinessline.com/markets/stock-markets/market-update-indices-open-in-green/article33276163.ece" target="_blank">Market update: Sensex trades flat, Nifty neat 13,300</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:52:45</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>
+                Rupee call: Daily Rupee call: Go long on INR above 73.7 Update:Equity benchmark Sensex jumped over 150 points to touch its fresh lifetime peak in earl
+            </b></p><br>
+      <p><b>Hindubusiness</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/world-news/joe-biden-chooses-retired-general-lloyd-austin-as-defense-secretary_14564481.html" target="_blank">Joe Biden chooses retired general Lloyd Austin as defense secretary</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:50:02</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Lloyd Austin, who would be the first Black US secretary of defense, was a surprise pick over Michele Flournoy, a former top Defense Department official who was considered the leading contender for the job. Flournoy would have been the first woman defense secretary.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.thehindubusinessline.com/markets/cfma-to-tell-investors-to-vote-against-winding-down-of-franklin-debt-schemes/article33276890.ece" target="_blank">CFMA to tell investors to vote against winding down of Franklin debt schemes </a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:45:39</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>
+                Winding down will cause a great loss to unitholders who will get less than 50% of their money in staggered payments 
+            </b></p><br>
+      <p><b>Hindubusiness</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/fomo-in-travel-linked-stocks-no-it-seems-to-be-value-buying/articleshow/79619578.cms" target="_blank">FOMO in travel-linked stocks? No, it seems to be value buying</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:45:35</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>Among the hospitality stocks, Indian Hotels has climbed more than 10 per cent in last one week, whole Lemon Tree Hotels has jumped 34 per cent. Chalet Hotels has added 33 per cent over last one week.</b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/stocks-to-watch/fii-buys-these-7-low-priced-stocks-gain-over-255-months_14564421.html" target="_blank">FII buys: These 7 low-priced stocks gain over 25% in 5 months</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:44:32</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Moneycontrol analyzed the stocks that were trading below Rs 20 on June 30, 2020, and had a market-cap of over Rs 100 crore. There were 15 BSE stocks meeting the criteria and where FIIs increased stake during the September quarter</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://timesofindia.indiatimes.com/business/india-business/pm-modi-says-mobile-technology-to-be-used-for-covid-19-vaccination-drive/articleshow/79620335.cms" target="_blank">PM says mobile tech to be used for Covid vaccination</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:44:19</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>With the chances of a Covid-19 vaccine being available soon increasing, Prime Minister Narendra Modi on Tuesday said the mobile technology will be used for mass inoculation against the pandemic.</b></p><br>
+      <p><b>TimesofIndia</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.business-standard.com/article/markets/reliance-industries-up-3-on-5g-plans-sees-rollout-in-second-half-of-2021-120120800435_1.html" target="_blank">Reliance Industries up 3% on 5G plans; sees rollout in second half of 2021</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:44:00</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>Early this year, Mukesh Ambani had announced Reliance Jio&#39;s commercial pact with Google to jointly develop entry-level affordable 4G and possibly 5G smartphones for a &#39;2G mukt Bharat&#39;</b></p><br>
+      <p><b>BusinessStandard</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/stocks-views/hdfc-bank-bajaj-finserv-bharti-airtel-among-11-buying-ideas-forto-42-upside_14564401.html" target="_blank">HDFC Bank, Bajaj Finserv, Bharti Airtel among 11 buying ideas for up to 42% upside</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:42:39</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Despite the markets forming new record highs pretty much on a daily basis, which has raised caution among investors, brokerages are bullish on these 11 stocks and see an upside of 7-42%</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/business/china-removes-tripadvisor-104-other-appsstores-under-cleansing-campaign_14564461.html" target="_blank">China removes TripAdvisor, 104 other apps from stores under cleansing campaign</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:41:01</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> The Cyberspace Administration of China said in a statement on its website on Tuesday that the apps violated one or more of three cyber laws, without providing details for each app.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/real-estate/godrej-properties-to-developresidential-projectwhitefield-bengaluru_14564381.html" target="_blank">Godrej Properties to develop a residential project in Whitefield, Bengaluru</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:39:59</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Spread across approximately 18 acres, this project will offer 2.4 million square feet of saleable area comprising primarily of residential apartments of various configurations</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.thehindubusinessline.com/markets/daily-rupee-call-go-long-on-inr-above-737/article33276857.ece" target="_blank">Daily Rupee call: Go long on INR above 73.7</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:38:24</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>
+                The Indian rupee (INR), which marked an intraday high of 73.70 last session against the US dollar (USD), faced selling pressure as it declined and end
+            </b></p><br>
+      <p><b>Hindubusiness</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/stock-market-update-3-stocks-hit-52-week-lows-on-nse/articleshow/79620282.cms" target="_blank">Stock market update: 3 stocks hit 52-week lows on NSE</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:25:24</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>Domestic benchmark index NSE Nifty was trading 35.50 points down at 13320.25, while the BSE Sensex was trading 73.56 points down at 45353.41. </b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/stock-market-update-135-stocks-hit-52-week-highs-on-nse/articleshow/79620078.cms" target="_blank">Stock market update: 135 stocks hit 52-week highs on NSE</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:23:50</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>Overall, 15 shares were trading in green in Nifty50 index, while 35 were trading in red in the afternoon trade. </b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/d-street-rally-could-broaden-to-include-banks-as-reliance-peaks/articleshow/79619937.cms" target="_blank">D-Street rally could broaden to include banks as Reliance peaks</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:18:28</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>​Reliance has accounted for nearly a fifth of the 75% surge in the S&amp;P BSE Sensex from its March bottom, according to data compiled by Bloomberg.</b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/brokerage-recos-commodities/agri-picks-report-geojit_14564341.html" target="_blank">Agri Picks Report: Geojit</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:15:35</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> According to Geojit, The Cotton Association of India has scaled down its estimate for exports to 5.4 mln bales (1 bale = 170 kg) for the ongoing 2020-21 (Oct-Sep) season, from 6.0 mln bales projected in the previous month.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/buzzing-stocks/cupid-shares-rise-3supply-ordercovid-19-antigen-based-rapid-test-kits_14564321.html" target="_blank">Cupid shares rise 3% on supply order of COVID-19 antigen based rapid test kits</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:10:01</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Cupid in an exchange filing announced that it has received a purchase order from Uttar Pradesh Medical Supplies Corporation for supply of COVID-19 antigen based rapid test kits worth Rs 8.27 crore.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/mohnish-pabrais-fund-buys-2-stake-in-edelweiss-financial-services-for-rs-148-crore/articleshow/79619821.cms" target="_blank">Mohnish Pabrai&#39;s fund buys 2% stake in Edelweiss Financial Services for Rs 148 crore</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:09:02</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>Mohnish Pabrai&#39;s fund and persons acting in concert (PACs), held 5.04 per cent stake in Edelweiss Financial Services earlier. It has now gone up to 7.07 per cent. </b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/world-news/the-kremlin-is-offering-russians-free-covid-19-vaccineswill-they-take-them_14564301.html" target="_blank">The Kremlin is offering Russians free COVID-19 vaccines, but will they take them?</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   11:03:25</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Russia made its coronavirus vaccine available for free in recent days to teachers, medical workers and social-service employees younger than 61 in Moscow.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/business/sc-on-loan-moratorium-live-updates-sc-resumes-hearing-petitions-seeking-interest-waiver_14564441.html" target="_blank">SC On Loan Moratorium LIVE Updates: SC resumes hearing petitions seeking interest waiver</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:52:18</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> SC Hearing on Loan Moratorium LIVE Updates: A bench led by Justice Ashok Bhushan will today resume hearing petitions seeking interest waiver during the loan moratorium.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/technocraft-industries-jumps-11-as-abakkus-fund-picks-up-stake/articleshow/79619486.cms" target="_blank">Technocraft Industries jumps 11% as Abakkus Fund picks up stake</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:51:30</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>On Monday, Abakkus Emerging Opportunities Fund – 1 lapped up 5,74,842 shares of Technocraft Industries at Rs 311 per share.</b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/economy/exclusive-|-budget-2021-economic-revival-top-priority-modi-govt-planning-public-spending-boost_14564281.html" target="_blank">Exclusive | Budget 2021: Economic revival top priority; Modi govt planning public spending boost</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:44:07</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Budgeted capex for FY2021-22 could easily cross Rs 6-7 lakh crore and the government finds itself unencumbered by strict fiscal considerations. The 15th Finance Commission is learnt to have recommended a fiscal deficit target range for each year of its award period, till 2025-26</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/up-133-since-march-this-adani-group-scrip-has-just-seen-upgrades/articleshow/79619163.cms" target="_blank">Up 133% since March, this Adani group scrip has just seen upgrades</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:39:13</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>Nomura said it stays positive on the stock due to strong turnaround of new acquisitions i.e. KPCL and Dhamra Ports, and volume momentum. </b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://timesofindia.indiatimes.com/business/india-business/mindtree-to-enter-healthcare-business-new-geos/articleshow/79619110.cms" target="_blank">Mindtree to enter healthcare business, new geos</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:37:54</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>Mid-tier software services firm Mindtree has outlined a 4x4x4 strategy – focus on four industries, four geographies and four service lines. The geography focus is the same as before – North America, UK &amp; Ireland, Continental Europe, and Asia-Pacific &amp; rest of the world. </b></p><br>
+      <p><b>TimesofIndia</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/yes-bank-jumps-8-on-likely-upgrade-from-amfi-arc-plans/articleshow/79619292.cms" target="_blank">YES Bank jumps 8% on likely upgrade from Amfi, ARC plans</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:37:16</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>Separately, the stock also got a boost from the lender’s likely plan for an asset reconstruction company (ARC). An ET report said around Rs 40,000 crore of bad loans by YES Bank are proposed to be housed in the ARC.</b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/mutual-funds/doreturns-justifyrisksinvestingsector-mutual-funds_14564261.html" target="_blank">Do the returns justify the risks of investing in sector mutual funds?</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:35:23</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> The fortunes of sector funds may reverse quickly and hence tracking their performance is important</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/reliance-capital-rises-5-as-deadline-for-bids-for-subsidiaries-extended-till-dec-17/articleshow/79619119.cms" target="_blank">Reliance Capital rises 5% as deadline for bids for subsidiaries extended till Dec 17</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:27:11</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>The bids were invited for all or part of RCL&#39;s stake in subsidiaries Reliance General Insurance, Reliance Nippon Life Insurance Company, Reliance Securities, Reliance Financial Limited and Reliance Asset Reconstruction.</b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.thehindubusinessline.com/markets/stock-markets/market-update-indices-open-in-green/article33276163.ece" target="_blank">Market update: Sensex jumps 200 points, Nifty tops 13,400</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:19:18</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>
+                Update:Equity benchmark Sensex jumped over 150 points to touch its fresh lifetime peak in early trade on Tuesday tracking gains in index majors Infosy
+            </b></p><br>
+      <p><b>Hindubusiness</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/mutual-funds/market-movesÂ mutual-fundsÂ sold-rs-30000-crore-worthequitiesnovember_14564241.html" target="_blank">Market moves:Â Mutual fundsÂ sold Rs 30,000 crore worth of equities in November</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:17:11</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Redemptions from investors and mutual funds deciding to take money off the table seen as contributing factors</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.business-standard.com/article/markets/adani-green-sees-a-565-stock-rally-a-23-bn-firm-with-no-analyst-coverage-120120800308_1.html" target="_blank">Adani Green sees a 565% stock rally: A $23 bn firm with no analyst coverage</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:17:00</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>With a free float of about 21%, Adani Green is one of the most illiquid stocks in the Nifty 100 gauge, data showed</b></p><br>
+      <p><b>BusinessStandard</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/buzzing-stocks/canara-bank-shares-jump-6plans-to-raise-rs-2000-crore-via-qip_14564221.html" target="_blank">Canara Bank shares jump 6% on plans to raise Rs 2,000 crore via QIP</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:15:49</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> The sub-committee of the board â Capital Planning Process of the bank, at its meeting held on December 7, authorised the opening of the QIP issue and approved the floor price of Rs 103.50 per equity share, Canara Bank said in a regulatory filing.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/business/lottery-sambad-result-december-8-39dear-bangalakshmi-torsha39-lottery-winners-to-be-announced-at-4-pm_14564201.html" target="_blank">Lottery Sambad Result December 8: #39;Dear Bangalakshmi Torsha#39; lottery winners to be announced at 4 pm</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:13:55</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Lottery Sambad Result: The first prize winner of the #39;Dear Bangalakshmi Torsha#39; lottery will take home Rs 50 lakh.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/canara-bank-surges-7-after-setting-floor-price-for-qip/articleshow/79618912.cms" target="_blank">Canara Bank surges 7% after setting floor price for QIP</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:11:42</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>Shares of Canara Bank on Monday closed higher than its QIP floor price at Rs 117.55 apiece on the BSE, up 5.62 per cent from its previous close. </b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/jet-airways-jumps-5-on-hopes-on-revival-of-operations-by-summer-of-2021/articleshow/79618821.cms" target="_blank">Jet Airways jumps 5% on hopes on revival of operations by summer of 2021</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:05:00</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>At 9:43 am, Jet Airways was up 5 per cent at Rs 75.60, while Sensex was trading 0.49 per cent higher at 45,648.27 points.</b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://economictimes.indiatimes.com/markets/stocks/news/sensex-climbs-220-points-to-fresh-highs-on-firm-global-cues/articleshow/79618808.cms" target="_blank">Sensex climbs 220 points to fresh highs on firm global cues</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:02:48</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>As indices are touching fresh record highs everyday, nervousness has started creeping again, reflected by rising India VIX levels. Analysts are also diving a cautious buying, as a sell-off at this moment may deplete wealth.</b></p><br>
+      <p><b>EconomicTimes</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/buzzing-stocks/goa-carbon-shares-hits-upper-circuit-after-november-production-jumps-58_14564161.html" target="_blank">Goa Carbon shares hits upper circuit after November production jumps 58%</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:00:55</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> The three plants including Bilaspur Plant produced 434.200 MT while the Goa Plant produced 5,590.000 MT and the Paradeep Plant produced 8,285.000 MT.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/rupee/rupee-opens-higher-at-7382-per-dollar_14564181.html" target="_blank">Rupee opens higher at 73.82 per dollar</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   10:00:26</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> We still believe higher levels of 74.20 should stay immediate resistance and can be utilised for shorting the pair, says ICICIdirect.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.thehindubusinessline.com/markets/stock-markets/market-update-indices-open-in-green/article33276163.ece" target="_blank">Market update: Sensex jumps over 150 points, Nifty tops 13,400</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   09:57:16</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>
+                Update:Equity benchmark Sensex jumped over 150 points to touch its fresh lifetime peak in early trade on Tuesday tracking gains in index majors Infosy
+            </b></p><br>
+      <p><b>Hindubusiness</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.business-standard.com/article/markets/canara-bank-gains-7-as-qip-opens-for-subscription-120120800243_1.html" target="_blank">Canara Bank surges 7% as Rs 2,000 crore QIP opens for subscription</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   09:47:00</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b>The board has approved the floor price for the QIP at Rs 103.50 per equity share.</b></p><br>
+      <p><b>BusinessStandard</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/current-affairs/bharat-bandh-today-what39s-open-what39s-notmay-be-affected_14564121.html" target="_blank">Bharat Bandh today: What#39;s open, what#39;s not, what may be affected</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   09:44:13</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Talks between the government and protesting farmer unions so far have been futile and the sixth round of discussions is scheduled to be held on December 9.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <h2><a href="https://www.moneycontrol.com/news/current-affairs/bharat-bandhdecember-8-what39s-open-what39s-notmay-be-affected_14564121.html" target="_blank">Bharat Bandh on December 8: What#39;s open, what#39;s not, what may be affected</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   09:44:13</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> Talks between the government and protesting farmer unions so far have been futile and the sixth round of discussions is scheduled to be held on December 9.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+ 
+   <div class="rightcolumn">
+    <div class="card">
+    
+      <h2><a href="https://www.moneycontrol.com/news/rupee/sell-usdinr-target7380-7360icici-direct_14564101.html" target="_blank">Sell USDINR; target of 73.80 - 73.60 : ICICI Direct</a></h2>
+      <h5>Published Date:  &nbsp&nbsp2020-12-08   09:42:22</h5>
+      <p><b><u>Description:</u></b></p>
+      <p><b> ICICI Direct, The rupee depreciated again on Monday and lost almost 10 paisa against the dollar despite continued flows in equities.</b></p><br>
+      <p><b>MoneyControl-Latest-News</p>
+    </div>
+ </div>
+</div>
+
+</div>
+
+<div class="footer">    
+  <h2>Powered By Rablion Softwares</h2>
+</div>
+
+</body>
+<script>
+
+function clickhandle(name){
+var ele=document.getElementById("content");
+let xmlhttp= window.XMLHttpRequest ?
+        new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState === 4 && this.status === 200)
+            
+            ele.innerHTML=this.responseText;
+    }
+
+    xmlhttp.open("GET","/"+name, true);
+
+    xmlhttp.send();
+return false;
+} 
+ 
+</script>
+</html>
+	
